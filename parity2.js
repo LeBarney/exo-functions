@@ -1,7 +1,9 @@
-var isOdd = function(number){
+const isOdd = (number) =>
+{
    return number%2 !== 0;
 }
-var isEven = function(number){
+const isEven = (number) =>
+{
   return !isOdd (number);
 }
 

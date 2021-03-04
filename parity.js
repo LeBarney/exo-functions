@@ -1,4 +1,4 @@
-var isOdd = function(number)
+const isOdd = (number) =>
 {
  (console.log(number%2 !== 0));
 }

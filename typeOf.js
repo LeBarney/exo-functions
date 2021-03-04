@@ -1,4 +1,4 @@
-var typeOf = function(variable)
+const typeOf = (variable) =>
 {
   console.log(typeof variable);
 }

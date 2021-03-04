@@ -1,4 +1,4 @@
-var compteur = function(min, max, step)
+const compteur = (min, max, step) =>
 {
 for (let i = min; i <= max; i += step)
   {
