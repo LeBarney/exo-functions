@@ -2,7 +2,7 @@ const compteur = (min, max, step) =>
 {
 for (let i = min; i <= max; i += step)
   {
-  console.log(i) 
+  console.log(i);
   }
 }
 
